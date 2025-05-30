@@ -39,7 +39,7 @@ const sections = document.querySelectorAll('main section');
 window.addEventListener('scroll', () => {
   let current = '';
   sections.forEach(section => {
-    const sectionTop = section.offsetTop - 100; // adjust offset for header height
+    const sectionTop = section.offsetTop - 100; 
     if (window.scrollY >= sectionTop) {
       current = section.getAttribute('id');
     }
